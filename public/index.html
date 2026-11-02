@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse the ShopStack product catalogue."><title>ShopStack — Discover everyday essentials</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <header class="site-header"><a class="brand" href="/"><span class="brand-mark">S</span> shopstack<span class="brand-dot">.</span></a><nav><a class="nav-link active" href="/">Shop</a><a class="nav-link" href="#catalogue">Catalogue</a></nav><a class="header-note" href="#catalogue">Explore collection <span>↗</span></a></header>
+  <main>
+    <section class="hero"><div class="hero-copy"><p class="eyebrow"><span class="eyebrow-line"></span> THE EVERYDAY EDIT</p><h1>Good finds.<br><span>Better living.</span></h1><p class="hero-description">Thoughtfully picked essentials for your everyday moments. Find something you'll love.</p><a class="hero-button" href="#catalogue">Explore products <span>↓</span></a><div class="hero-meta"><span><b>12+</b> curated products</span><i></i><span>Made for everyday</span></div></div><div class="hero-art"><div class="hero-image-main"></div><div class="hero-image-small"></div><div class="hero-sticker"><span>THE</span><strong>GOOD<br>STUFF</strong><span>JUST HERE ↘</span></div><div class="hero-caption">A LITTLE BETTER, EVERY DAY.</div></div></section>
+    <section class="catalogue-section" id="catalogue"><div class="section-heading"><div><p class="eyebrow">FIND YOUR NEXT FAVOURITE</p><h2>Explore the collection<span>.</span></h2></div><p class="section-side-note">Useful things. Lovely details.<br>All in one place.</p></div>
+      <div class="toolbar"><label class="search-box"><span>⌕</span><input id="searchInput" type="search" placeholder="Search products..." aria-label="Search products"></label><select id="categoryFilter" aria-label="Filter by category"><option value="">All categories</option></select><div class="price-filter"><label for="minPrice">₹</label><input id="minPrice" type="number" min="0" placeholder="Min price"><span>—</span><input id="maxPrice" type="number" min="0" placeholder="Max price"></div><button class="clear-button" id="clearFilters">Clear filters <span>↺</span></button></div>
+      <div class="results-line"><p id="resultCount">Showing products</p><span>CURATED FOR YOU</span></div><div class="product-grid" id="productGrid"><div class="loading-state">Finding the good stuff...</div></div><div class="empty-state hidden" id="emptyState"><div>⌕</div><h3>No products found</h3><p>Try changing your search or filters.</p><button id="resetEmpty">Clear all filters</button></div>
+    </section>
+  </main>
+  <footer><a class="brand" href="/"><span class="brand-mark">S</span> shopstack<span class="brand-dot">.</span></a><p>Thoughtful finds for everyday life.</p><span>© 2026 ShopStack · Student project</span></footer>
+  <script src="/js/app.js"></script>
+</body></html>

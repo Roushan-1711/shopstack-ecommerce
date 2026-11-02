@@ -1,0 +1,17 @@
+{
+  "name": "shopstack-product-catalogue",
+  "version": "1.0.0",
+  "description": "A beginner-friendly full-stack product listing website for Part 1 of the e-commerce assignment.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "db:setup": "node database/setup.js"
+  },
+  "keywords": ["ecommerce", "express", "sqlite", "rest-api"],
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "express": "^4.21.2"
+  }
+}
